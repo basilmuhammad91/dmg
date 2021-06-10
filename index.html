@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Home</title>
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <link rel="canonical" href="index.html" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+
+
+    <link rel='dns-prefetch' href='http://code.jquery.com/' />
+    <link rel='dns-prefetch' href='http://use.fontawesome.com/' />
+    <link rel='dns-prefetch' href='http://s.w.org/' />
+    <style>
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <style>
+        footer .main-footer {
+            padding: 20px 0;
+            background: black;
+        }
+        
+        footer ul {
+            padding-left: 0;
+            list-style: none;
+        }
+        /* Copy Right Footer */
+        
+        .footer-copyright {
+            background: black;
+            padding: 5px 0;
+        }
+        
+        .footer-copyright .logo {
+            display: inherit;
+        }
+        
+        .footer-copyright nav {
+            float: right;
+            margin-top: 5px;
+        }
+        
+        .footer-copyright nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .footer-copyright nav ul li {
+            border-left: 1px solid #505050;
+            display: inline-block;
+            line-height: 12px;
+            margin: 0;
+            padding: 0 8px;
+        }
+        
+        .footer-copyright nav ul li a {
+            color: #969696;
+        }
+        
+        .footer-copyright nav ul li:first-child {
+            border: medium none;
+            padding-left: 0;
+        }
+        
+        .footer-copyright p {
+            color: #969696;
+            margin: 2px 0 0;
+        }
+        /* Footer Top */
+        
+        .footer-top {
+            background: #252525;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #222;
+        }
+        /* Footer transparent */
+        
+        footer.transparent .footer-top,
+        footer.transparent .main-footer {
+            background: transparent;
+        }
+        
+        footer.transparent .footer-copyright {
+            background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+        }
+        /* Footer light */
+        
+        footer.light .footer-top {
+            background: #f9f9f9;
+        }
+        
+        footer.light .main-footer {
+            background: #f9f9f9;
+        }
+        
+        footer.light .footer-copyright {
+            background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3);
+        }
+        /* Footer 4 */
+        
+        .footer- .logo {
+            display: inline-block;
+        }
+        /*==================== 
+  Widgets 
+====================== */
+        
+        .widget {
+            padding: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .widget.widget-last {
+            margin-bottom: 0px;
+        }
+        
+        .widget.no-box {
+            padding: 0;
+            background-color: transparent;
+            margin-bottom: 40px;
+            box-shadow: none;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            -ms-box-shadow: none;
+            -o-box-shadow: none;
+        }
+        
+        .widget.subscribe p {
+            margin-bottom: 18px;
+        }
+        
+        .widget li a {
+            color: grey;
+        }
+        
+        .widget li a:hover {
+            color: #4b92dc;
+        }
+        
+        .widget-title {
+            margin-bottom: 20px;
+        }
+        
+        .widget-title span {
+            background: #839FAD none repeat scroll 0 0;
+            display: block;
+            height: 1px;
+            margin-top: 25px;
+            position: relative;
+            width: 20%;
+        }
+        
+        .widget-title span::after {
+            background: inherit;
+            content: "";
+            height: inherit;
+            position: absolute;
+            top: -4px;
+            width: 50%;
+        }
+        
+        .widget-title.text-center span,
+        .widget-title.text-center span::after {
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
+        }
+        
+        .widget .badge {
+            float: right;
+            background: #7f7f7f;
+        }
+        
+        .typo-light h1,
+        .typo-light h2,
+        .typo-light h3,
+        .typo-light h4,
+        .typo-light h5,
+        .typo-light h6,
+        .typo-light p,
+        .typo-light div,
+        .typo-light span,
+        .typo-light small {
+            color: #fff;
+        }
+        
+        ul.social-footer2 {
+            margin: 0;
+            padding: 0;
+            width: auto;
+        }
+        
+        ul.social-footer2 li {
+            display: inline-block;
+            padding: 0;
+        }
+        
+        ul.social-footer2 li a:hover {
+            background-color: #ff8d1e;
+        }
+        
+        ul.social-footer2 li a {
+            display: block;
+            height: 30px;
+            width: 30px;
+            text-align: center;
+        }
+        
+        .btn {
+            background-color: #ff8d1e;
+            color: #fff;
+        }
+        
+        .btn:hover,
+        .btn:focus,
+        .btn.active {
+            background: #4b92dc;
+            color: #fff;
+            -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            -ms-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            -o-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            -webkit-transition: all 250ms ease-in-out 0s;
+            -moz-transition: all 250ms ease-in-out 0s;
+            -ms-transition: all 250ms ease-in-out 0s;
+            -o-transition: all 250ms ease-in-out 0s;
+            transition: all 250ms ease-in-out 0s;
+        }
+    </style>
+    <link rel='stylesheet' id='wp-block-library-css' href='./wp-includes/css/dist/block-library/style.min5697.css?ver=5.5.3' media='all' />
+    <link rel='stylesheet' id='contact-form-7-css' href='./wp-content/plugins/contact-form-7/includes/css/styles7923.css?ver=5.3.1' media='all' />
+    <link rel='stylesheet' id='cookie-notice-front-css' href='./wp-content/plugins/cookie-notice/css/front.min5697.css?ver=5.5.3' media='all' />
+    <link rel='stylesheet' id='wpml-legacy-dropdown-0-css' href='./wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-dropdown/style68b3.css?ver=1' media='all' />
+    <style id='wpml-legacy-dropdown-0-inline-css'>
+        .wpml-ls-statics-shortcode_actions,
+        .wpml-ls-statics-shortcode_actions .wpml-ls-sub-menu,
+        .wpml-ls-statics-shortcode_actions a {
+            border-color: #ffffff;
+        }
+    </style>
+    <link rel='stylesheet' id='vinci-styles-css' href='./wp-content/themes/const/css/theme.min4b52.css?ver=0.9.4.1613468959' media='all' />
+    <link rel='stylesheet' id='font-awesome-css' href='./use.fontawesome.com/releases/v5.9.0/css/all5697.css?ver=5.5.3' media='all' />
+    <link rel='stylesheet' id='addtoany-css' href='./wp-content/plugins/add-to-any/addtoany.min9be6.css?ver=1.15' media='all' />
+    <script src='./code.jquery.com/jquery-3.1.1.minb12b.js?ver=3.1.1' id='jquery-js'></script>
+    <script src='./wp-content/plugins/add-to-any/addtoany.min4963.js?ver=1.1' id='addtoany-js'></script>
+    <script src='./wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-dropdown/script68b3.js?ver=1' id='wpml-legacy-dropdown-0-js'></script>
+    <script src='./wp-content/themes/const/js/main5697.js?ver=5.5.3' id='main-js-js'></script>
+    <link rel="https://api.w.org/" href="wp-json/index.html" />
+    <link rel='shortlink' href='index.html' />
+
+    <script data-cfasync="false">
+        window.a2a_config = window.a2a_config || {};
+        a2a_config.callbacks = [];
+        a2a_config.overlays = [];
+        a2a_config.templates = {};
+        (function(d, s, a, b) {
+            a = d.createElement(s);
+            b = d.getElementsByTagName(s)[0];
+            a.async = 1;
+            a.src = "./static.addtoany.com/menu/page.js";
+            b.parentNode.insertBefore(a, b);
+        })(document, "script");
+    </script>
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+</head>
+
+<body class="home page-template page-template-page-templates page-template-home-page page-template-page-templateshome-page-php page page-id-751 wp-custom-logo wp-embed-responsive cookies-not-set group-blog" itemscope itemtype="http://schema.org/WebSite">
+
+    <div class="site" id="page">
+        <div class="fixed-header">
+            <div class="container">
+
+
+                <div class="lang_switcher">
+
+                </div>
+
+            </div>
+
+
+
+            <script>
+                jQuery(document).ready(function() {
+
+                    console.log("document loaded");
+
+                    var $search_form = jQuery(".search_form");
+                    var $search_item = jQuery(".trigger--search");
+                    jQuery(".js-trigger--search").on("click", function() {
+                        $search_form.toggleClass("active");
+                        $search_item.toggleClass("active");
+                    });
+
+
+                });
+            </script>
+
+
+            <!-- ******************* The Navbar Area ******************* -->
+            <div id="wrapper-navbar">
+                <div class="container">
+
+                    <a class="skip-link sr-only sr-only-focusable" href="#content">Skip to content</a>
+
+
+                    <nav id="main-nav" class="navbar-light navbar-default navbar navbar-expand-md" aria-labelledby="main-nav-label">
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>	  
+	  
+    </button>
+                        <div>
+                            <a href="./index.html" class="navbar-brand custom-logo-link" rel="home"><img width="434" height="121" src="wp-content/cover.png" class="img-fluid" /></a>
+                        </div>
+                        <!-- .site-branding -->
+
+
+
+                        <h2 id="main-nav-label" class="sr-only">
+                            Main Navigation </h2>
+
+                        <div class="container">
+
+                            <div id="navbarNavDropdown" class="collapse navbar-collapse">
+                                <ul id="main-menu" class="navbar-nav ml-auto">
+                                    <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-836" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-751 current_page_item active menu-item-836 nav-item"><a title="Home" href="index.html" class="nav-link" aria-current="page" data-ps2id-api="true">Home</a></li>
+                                    <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-821" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-821 nav-item"><a title="About us" href="about-us/index.html" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-821" data-ps2id-api="true">About us</a>
+                                        <ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-821" role="menu">
+                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-866" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-866 nav-item"><a title="Global Challenges" href="about-us/index.html#global-challenges" class="dropdown-item" data-ps2id-api="true">Global Challenges</a></li>
+                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-867" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-867 nav-item"><a title="Our commitments" href="about-us/index.html#our-commitments" class="dropdown-item" data-ps2id-api="true">Our commitments</a></li>
+                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-868" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-868 nav-item"><a title="Key figures" href="about-us/index.html#key-figures" class="dropdown-item" data-ps2id-api="true">Key figures</a></li>
+                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-869" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-869 nav-item"><a title="Organization" href="about-us/index.html#organization" class="dropdown-item" data-ps2id-api="true">Organization</a></li>
+                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-870" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-870 nav-item"><a title="Executive Committee" href="about-us/index.html#executive-committee" class="dropdown-item" data-ps2id-api="true">Executive Committee</a></li>
+                                        </ul>
+                                    </li>
+                                    <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-825" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-825 nav-item"><a title="Our solutions and services" href="nos-expertises/index.html" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-825" data-ps2id-api="true">Our solutions and services</a>
+                                        <ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-825" role="menu">
+                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-871" class="menu-item menu-item-type-taxonomy menu-item-object-expertises_tax menu-item-871 nav-item"><a title="Buildings" href="our-solutions-and-services/buildings/index.html" class="dropdown-item" data-ps2id-api="true">Buildings</a></li>
+                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-872" class="menu-item menu-item-type-taxonomy menu-item-object-expertises_tax menu-item-872 nav-item"><a title="Functional facilities" href="our-solutions-and-services/functional-facilities/index.html" class="dropdown-item" data-ps2id-api="true">Functional facilities</a></li>
+                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-873" class="menu-item menu-item-type-taxonomy menu-item-object-expertises_tax menu-item-873 nav-item"><a title="Transport infrastructure" href="our-solutions-and-services/transport-infrastructure/index.html" class="dropdown-item" data-ps2id-api="true">Transport infrastructure</a></li>
+                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-874" class="menu-item menu-item-type-taxonomy menu-item-object-expertises_tax menu-item-874 nav-item"><a title="Water infrastructure" href="our-solutions-and-services/water-infrastructure/index.html" class="dropdown-item" data-ps2id-api="true">Water infrastructure</a></li>
+                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-875" class="menu-item menu-item-type-taxonomy menu-item-object-expertises_tax menu-item-875 nav-item"><a title="Renewable and nuclear energy" href="our-solutions-and-services/renewable-and-nuclear-energy/index.html" class="dropdown-item" data-ps2id-api="true">Renewable and nuclear energy</a></li>
+                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-876" class="menu-item menu-item-type-taxonomy menu-item-object-expertises_tax menu-item-876 nav-item"><a title="Oil &amp; Gas" href="our-solutions-and-services/oil-gas/index.html" class="dropdown-item" data-ps2id-api="true">Oil &amp; Gas</a></li>
+                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-877" class="menu-item menu-item-type-taxonomy menu-item-object-expertises_tax menu-item-877 nav-item"><a title="Environment" href="our-solutions-and-services/environment/index.html" class="dropdown-item" data-ps2id-api="true">Environment</a></li>
+                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-878" class="menu-item menu-item-type-taxonomy menu-item-object-expertises_tax menu-item-878 nav-item"><a title="Mining" href="our-solutions-and-services/mining/index.html" class="dropdown-item" data-ps2id-api="true">Mining</a></li>
+                                        </ul>
+                                    </li>
+                                    <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-824" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-824 nav-item"><a title="News" href="news/index.html" class="nav-link" data-ps2id-api="true">News</a></li>
+                                    <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-822" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-822 nav-item"><a title="Careers" href="career/index.html" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-822" data-ps2id-api="true">Careers</a>
+                                        <ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-822" role="menu">
+                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-879" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-879 nav-item"><a title="5 reasons why you will enjoy working with us" href="career/index.html#5-reasons-why-you-will-enjoy-working-with-us" class="dropdown-item" data-ps2id-api="true">5 reasons why you will enjoy working with us</a></li>
+                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-880" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-880 nav-item"><a title="They work with us" href="career/index.html#they-work-with-us" class="dropdown-item" data-ps2id-api="true">They work with us</a></li>
+                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-881" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-881 nav-item"><a title="Latest jobs" href="career/index.html#latest-jobs" class="dropdown-item" data-ps2id-api="true">Latest jobs</a></li>
+                                        </ul>
+                                    </li>
+                                    <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-882" class="trigger trigger--search js-trigger--search menu-item menu-item-type-custom menu-item-object-custom menu-item-882 nav-item"><a href="#" class="nav-link" data-ps2id-api="true"><i class="fas fa-search"></i></a></li>
+                                    <div class="mobile-search d-block d-md-none">
+                                        <form method="get" id="searchform" action="https://www.vinci-construction.com/en/" role="search">
+                                            <label class="sr-only" for="s">Search</label>
+                                            <div class="input-group">
+                                                <input class="field form-control" id="s" name="s" type="text" placeholder="Search &hellip;" value="">
+                                                <span class="input-group-append">
+			<input class="submit btn btn-primary" id="searchsubmit" name="submit" type="submit"
+			value="Search">
+		</span>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- .container -->
+
+                    </nav>
+                    <!-- .site-navigation -->
+
+                    <div class="d-none d-md-block search_form">
+                        <form method="get" class="form--search--small">
+                            <input type="text" placeholder="SEARCH" name="s" id="search" value="" />
+                        </form>
+                    </div>
+                    <!-- search_form -->
+
+
+                    <div>
+                        <a href="index.html" class="navbar-brand custom-logo-link" rel="home" aria-current="page"><img style="height: 100px;" src="" sizes="(max-width: 434px) 100vw, 434px" /></a>
+                    </div>
+                    <!-- .site-branding -->
+
+                </div>
+                <!-- #wrapper-navbar end -->
+            </div>
+        </div>
+        <!-- fixed-header end -->
+        <div class="wrapper" id="single-wrapper">
+
+            <div class="header-hero aggregation-hero" style="background-image:url(https://images.unsplash.com/photo-1503951458645-643d53bfd90f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);height: 500px;">
+                <div class="container">
+                    <h1 class="title">MEETING SOCIETY’S MAJOR CHALLENGES</h1>
+                    <p class="subtitle"> Construction works with passion, commitment and innovation to construct buildings and infrastructures that meet the major challenges facing society worldwide.</p>
+                </div>
+            </div>
+
+            <div class="container" id="content" tabindex="-1">
+
+                <div class="row mt-md-4 mt-2">
+
+                    <!-- Do the left sidebar check -->
+
+                    <div class="col-md content-area" id="primary">
+
+                        <main class="site-main" id="main">
+
+
+
+
+
+
+
+                            <div class=" row">
+
+
+                                <div class="col-12 col-sm-6 col-md-4 py-2">
+                                    <div class="card h-100">
+
+                                        <div class="card_image" style="background-image:url(https://images.pexels.com/photos/585419/pexels-photo-585419.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);"></div>
+
+                                        <div class="card-body" ">	
+              
+                      
+                        <p class="card-body_tag ">Our commitments</p>
+                                        	
+
+                <h3 class="card-body_title "><a>Committed to safety:</a></h3>
+                                <p class="card-body_text ">XYZ is committed to SAFETY FIRST approach from the day 1, we make health and safety the utmost prioirity on our every project and constuction site.
+                                </p>	
+                                
+               
+            </div>
+           
+
+        </div>
+    </div>	
+
+    
+    <div class="col-12 col-sm-6 col-md-4 py-2 ">
+        <div class="card h-100 ">
+          
+            <div class="card_image " style="background-image:url(https://industrytoday.com/wp-content/uploads/2020/08/construction-site-changing-rooms.jpg); "></div>
+         
+        <div class="card-body " ">
+
+
+                                            <p class="card-body_tag">Organization</p>
+
+
+                                            <h3 class="card-body_title"><a>Dedicated to enviroment
+                                            </a></h3>
+                                            <p class="card-body_text">Construction can impact the environment in a variety of ways, from air and water quality to the soil stabilization. Since construction uses roughly 400 million tons of materials every year and doesn’t just impact
+                                                the environment surrounding the project. The extraction of raw materials can be damaged.</p>
+
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+
+                                <div class="col-12 col-sm-6 col-md-4 py-2">
+                                    <div class="card h-100">
+
+                                        <div class="card_image" style="background-image:url(https://www.icharts.net/wp-content/uploads/2021/01/construction-image-750x500.jpg);"></div>
+
+                                        <div class="card-body" ">	
+              
+                      
+                        <p class="card-body_tag ">Organization</p>
+                                        	
+
+                <h3 class="card-body_title "><a>Specialist subsidiaries</a></h3>
+                                <p class="card-body_text ">Delivering technology and a high level of expertise</p>	
+                                
+               
+            </div>
+           
+
+        </div>
+    </div>	
+
+    		
+
+
+    </div>
+       
+    <div class=" row pt-4 pb-5 ">	
+     
+        <a class="button_more " href="about-us/index.html " target="_self ">
+            <span class="label ">Know everything about Construction</span>
+            <svg width="24 " height="24 " xmlns="http://www.w3.org/2000/svg " fill-rule="evenodd " clip-rule="evenodd ">
+                <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z "></path>
+            </svg>
+        </a>
+
+    </div>
+        
+  
+
+	
+
+
+
+
+
+    
+    
+
+
+<div class="row p-2 ">
+    <div class="section_desc ">
+        <div class="line "></div>
+             <h2 class="section_desc_title ">Our solutions and services</h2>              <p class="section_desc_subtitle "> Construction can work at all stages of the project life cycle, from financing to design, construction and maintenance, and delivers comprehensive solutions and services.</p>     </div>   
+</div>
+
+
+        <div class="d-none d-md-block ss-block pt-3 pb-5 ">
+        <div class="row ">
+    
+           <div class="col-6 col-md-3 px-0 border-line ">
+            <div class="card h-100 ">
+            <a href="our-solutions-and-services/buildings/index.html ">
+            <img class=" " src="./wp-content/uploads/2020/12/batiments_expertise_icon2.png "></a>
+            <div class="card-body ">
+            <p class="card-body_tag ">BUILDINGS</p>
+            <a href="our-solutions-and-services/buildings/index.html ">
+            <div class="card-body_title ">Improving the living environment</div>      </a> 
+            </div>
+            <div class="card-footer ">
+            <a class="button_more " href="our-solutions-and-services/buildings/index.html ">
+                <span class="label ">Discover</span>
+                <svg width="24 " height="24 " xmlns="http://www.w3.org/2000/svg " fill-rule="evenodd " clip-rule="evenodd ">
+                    <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z "></path>
+                </svg>
+            </a>
+            </div>
+
+            </div>
+           </div>
+
+        
+           <div class="col-6 col-md-3 px-0 border-line ">
+            <div class="card h-100 ">
+            <a href="our-solutions-and-services/functional-facilities/index.html ">
+            <img class=" " src="./wp-content/uploads/2020/12/ouvrages_fonctionnels_expertise_icon2.png "></a>
+            <div class="card-body ">
+            <p class="card-body_tag ">FUNCTIONAL FACILITIES</p>
+            <a href="our-solutions-and-services/functional-facilities/index.html ">
+            <div class="card-body_title ">Optimising urban facilities</div>      </a> 
+            </div>
+            <div class="card-footer ">
+            <a class="button_more " href="our-solutions-and-services/functional-facilities/index.html ">
+                <span class="label ">Discover</span>
+                <svg width="24 " height="24 " xmlns="http://www.w3.org/2000/svg " fill-rule="evenodd " clip-rule="evenodd ">
+                    <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z "></path>
+                </svg>
+            </a>
+            </div>
+
+            </div>
+           </div>
+
+        
+           <div class="col-6 col-md-3 px-0 border-line ">
+            <div class="card h-100 ">
+            <a href="our-solutions-and-services/transport-infrastructure/index.html ">
+            <img class=" " src="./wp-content/uploads/2020/12/infrastructures_transport_expertise_icon2.png "></a>
+            <div class="card-body ">
+            <p class="card-body_tag ">TRANSPORT INFRASTRUCTURE</p>
+            <a href="our-solutions-and-services/transport-infrastructure/index.html ">
+            <div class="card-body_title ">Making the world more mobile</div>      </a> 
+            </div>
+            <div class="card-footer ">
+            <a class="button_more " href="our-solutions-and-services/transport-infrastructure/index.html ">
+                <span class="label ">Discover</span>
+                <svg width="24 " height="24 " xmlns="http://www.w3.org/2000/svg " fill-rule="evenodd " clip-rule="evenodd ">
+                    <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z "></path>
+                </svg>
+            </a>
+            </div>
+
+            </div>
+           </div>
+
+        
+           <div class="col-6 col-md-3 px-0 border-line ">
+            <div class="card h-100 ">
+            <a href="our-solutions-and-services/water-infrastructure/index.html ">
+            <img class=" " src="./wp-content/uploads/2020/12/infrastructures_hydrauliques_expertise_icon2.png "></a>
+            <div class="card-body ">
+            <p class="card-body_tag ">WATER INFRASTRUCTURE</p>
+            <a href="our-solutions-and-services/water-infrastructure/index.html ">
+            <div class="card-body_title ">Making the most of water resources</div>      </a> 
+            </div>
+            <div class="card-footer ">
+            <a class="button_more " href="our-solutions-and-services/water-infrastructure/index.html ">
+                <span class="label ">Discover</span>
+                <svg width="24 " height="24 " xmlns="http://www.w3.org/2000/svg " fill-rule="evenodd " clip-rule="evenodd ">
+                    <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z "></path>
+                </svg>
+            </a>
+            </div>
+
+            </div>
+           </div>
+
+        
+           <div class="col-6 col-md-3 px-0 border-line ">
+            <div class="card h-100 ">
+            <a href="our-solutions-and-services/renewable-and-nuclear-energy/index.html ">
+            <img class=" " src="./wp-content/uploads/2020/12/energie_expertise_icon2.png "></a>
+            <div class="card-body ">
+            <p class="card-body_tag ">RENEWABLE AND NUCLEAR ENERGY</p>
+            <a href="our-solutions-and-services/renewable-and-nuclear-energy/index.html ">
+            <div class="card-body_title ">Fostering access to safer, more sustainable energy</div>      </a> 
+            </div>
+            <div class="card-footer ">
+            <a class="button_more " href="our-solutions-and-services/renewable-and-nuclear-energy/index.html ">
+                <span class="label ">Discover</span>
+                <svg width="24 " height="24 " xmlns="http://www.w3.org/2000/svg " fill-rule="evenodd " clip-rule="evenodd ">
+                    <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z "></path>
+                </svg>
+            </a>
+            </div>
+
+            </div>
+           </div>
+
+        
+           <div class="col-6 col-md-3 px-0 border-line ">
+            <div class="card h-100 ">
+            <a href="our-solutions-and-services/oil-gas/index.html ">
+            <img class=" " src="./wp-content/uploads/2020/12/petrole_gaz_expertise_icon2.png "></a>
+            <div class="card-body ">
+            <p class="card-body_tag ">OIL &#038; GAS</p>
+            <a href="our-solutions-and-services/oil-gas/index.html ">
+            <div class="card-body_title ">Providing safe and lasting infrastructure</div>      </a> 
+            </div>
+            <div class="card-footer ">
+            <a class="button_more " href="our-solutions-and-services/oil-gas/index.html ">
+                <span class="label ">Discover</span>
+                <svg width="24 " height="24 " xmlns="http://www.w3.org/2000/svg " fill-rule="evenodd " clip-rule="evenodd ">
+                    <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z "></path>
+                </svg>
+            </a>
+            </div>
+
+            </div>
+           </div>
+
+        
+           <div class="col-6 col-md-3 px-0 border-line ">
+            <div class="card h-100 ">
+            <a href="our-solutions-and-services/environment/index.html ">
+            <img class=" " src="./wp-content/uploads/2020/12/environnement_expertise_icon2.png "></a>
+            <div class="card-body ">
+            <p class="card-body_tag ">ENVIRONMENT</p>
+            <a href="our-solutions-and-services/environment/index.html ">
+            <div class="card-body_title ">Because the planet must remain clean</div>      </a> 
+            </div>
+            <div class="card-footer ">
+            <a class="button_more " href="our-solutions-and-services/environment/index.html ">
+                <span class="label ">Discover</span>
+                <svg width="24 " height="24 " xmlns="http://www.w3.org/2000/svg " fill-rule="evenodd " clip-rule="evenodd ">
+                    <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z "></path>
+                </svg>
+            </a>
+            </div>
+
+            </div>
+           </div>
+
+        
+           <div class="col-6 col-md-3 px-0 border-line ">
+            <div class="card h-100 ">
+            <a href="our-solutions-and-services/mining/index.html ">
+            <img class=" " src="./wp-content/uploads/2020/12/mines_expertise_icon2.png "></a>
+            <div class="card-body ">
+            <p class="card-body_tag ">MINING</p>
+            <a href="our-solutions-and-services/mining/index.html ">
+            <div class="card-body_title ">Providing access to new resources</div>      </a> 
+            </div>
+            <div class="card-footer ">
+            <a class="button_more " href="our-solutions-and-services/mining/index.html ">
+                <span class="label ">Discover</span>
+                <svg width="24 " height="24 " xmlns="http://www.w3.org/2000/svg " fill-rule="evenodd " clip-rule="evenodd ">
+                    <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z "></path>
+                </svg>
+            </a>
+            </div>
+
+            </div>
+           </div>
+
+        
+        </div>
+    </div>
+    
+
+
+        <div class="d-block d-md-none ss-block pt-3 pb-5 ">
+        <div class="row ">
+        <div class="swiper-container ss-swiper ">
+    <div class="swiper-wrapper ">
+    
+           <div class="swiper-slide mb-2 ">
+            <div class="card mx-4 ">
+            <a href="our-solutions-and-services/buildings/index.html ">
+            <img class=" " src="./wp-content/uploads/2020/12/batiments_expertise_icon2.png "></a>
+            <div class="card-body ">
+            <p class="card-body_tag ">BUILDINGS</p>
+            <a href="our-solutions-and-services/buildings/index.html ">
+            <div class="card-body_title ">Improving the living environment</div>      </a> 
+            </div>
+            <div class="card-footer ">
+            <a class="button_more " href="our-solutions-and-services/buildings/index.html ">
+                <span class="label ">Discover</span>
+                <svg width="24 " height="24 " xmlns="http://www.w3.org/2000/svg " fill-rule="evenodd " clip-rule="evenodd ">
+                    <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z "></path>
+                </svg>
+            </a>
+            </div>
+
+            </div>
+           </div>
+
+        
+           <div class="swiper-slide mb-2 ">
+            <div class="card mx-4 ">
+            <a href="our-solutions-and-services/functional-facilities/index.html ">
+            <img class=" " src="./wp-content/uploads/2020/12/ouvrages_fonctionnels_expertise_icon2.png "></a>
+            <div class="card-body ">
+            <p class="card-body_tag ">FUNCTIONAL FACILITIES</p>
+            <a href="our-solutions-and-services/functional-facilities/index.html ">
+            <div class="card-body_title ">Optimising urban facilities</div>      </a> 
+            </div>
+            <div class="card-footer ">
+            <a class="button_more " href="our-solutions-and-services/functional-facilities/index.html ">
+                <span class="label ">Discover</span>
+                <svg width="24 " height="24 " xmlns="http://www.w3.org/2000/svg " fill-rule="evenodd " clip-rule="evenodd ">
+                    <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z "></path>
+                </svg>
+            </a>
+            </div>
+
+            </div>
+           </div>
+
+        
+           <div class="swiper-slide mb-2 ">
+            <div class="card mx-4 ">
+            <a href="our-solutions-and-services/transport-infrastructure/index.html ">
+            <img class=" " src="./wp-content/uploads/2020/12/infrastructures_transport_expertise_icon2.png "></a>
+            <div class="card-body ">
+            <p class="card-body_tag ">TRANSPORT INFRASTRUCTURE</p>
+            <a href="our-solutions-and-services/transport-infrastructure/index.html ">
+            <div class="card-body_title ">Making the world more mobile</div>      </a> 
+            </div>
+            <div class="card-footer ">
+            <a class="button_more " href="our-solutions-and-services/transport-infrastructure/index.html ">
+                <span class="label ">Discover</span>
+                <svg width="24 " height="24 " xmlns="http://www.w3.org/2000/svg " fill-rule="evenodd " clip-rule="evenodd ">
+                    <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z "></path>
+                </svg>
+            </a>
+            </div>
+
+            </div>
+           </div>
+
+        
+           <div class="swiper-slide mb-2 ">
+            <div class="card mx-4 ">
+            <a href="our-solutions-and-services/water-infrastructure/index.html ">
+            <img class=" " src="./wp-content/uploads/2020/12/infrastructures_hydrauliques_expertise_icon2.png "></a>
+            <div class="card-body ">
+            <p class="card-body_tag ">WATER INFRASTRUCTURE</p>
+            <a href="our-solutions-and-services/water-infrastructure/index.html ">
+            <div class="card-body_title ">Making the most of water resources</div>      </a> 
+            </div>
+            <div class="card-footer ">
+            <a class="button_more " href="our-solutions-and-services/water-infrastructure/index.html ">
+                <span class="label ">Discover</span>
+                <svg width="24 " height="24 " xmlns="http://www.w3.org/2000/svg " fill-rule="evenodd " clip-rule="evenodd ">
+                    <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z "></path>
+                </svg>
+            </a>
+            </div>
+
+            </div>
+           </div>
+
+        
+           <div class="swiper-slide mb-2 ">
+            <div class="card mx-4 ">
+            <a href="our-solutions-and-services/renewable-and-nuclear-energy/index.html ">
+            <img class=" " src="./wp-content/uploads/2020/12/energie_expertise_icon2.png "></a>
+            <div class="card-body ">
+            <p class="card-body_tag ">RENEWABLE AND NUCLEAR ENERGY</p>
+            <a href="our-solutions-and-services/renewable-and-nuclear-energy/index.html ">
+            <div class="card-body_title ">Fostering access to safer, more sustainable energy</div>      </a> 
+            </div>
+            <div class="card-footer ">
+            <a class="button_more " href="our-solutions-and-services/renewable-and-nuclear-energy/index.html ">
+                <span class="label ">Discover</span>
+                <svg width="24 " height="24 " xmlns="http://www.w3.org/2000/svg " fill-rule="evenodd " clip-rule="evenodd ">
+                    <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z "></path>
+                </svg>
+            </a>
+            </div>
+
+            </div>
+           </div>
+
+        
+           <div class="swiper-slide mb-2 ">
+            <div class="card mx-4 ">
+            <a href="our-solutions-and-services/oil-gas/index.html ">
+            <img class=" " src="./wp-content/uploads/2020/12/petrole_gaz_expertise_icon2.png "></a>
+            <div class="card-body ">
+            <p class="card-body_tag ">OIL &#038; GAS</p>
+            <a href="our-solutions-and-services/oil-gas/index.html ">
+            <div class="card-body_title ">Providing safe and lasting infrastructure</div>      </a> 
+            </div>
+            <div class="card-footer ">
+            <a class="button_more " href="our-solutions-and-services/oil-gas/index.html ">
+                <span class="label ">Discover</span>
+                <svg width="24 " height="24 " xmlns="http://www.w3.org/2000/svg " fill-rule="evenodd " clip-rule="evenodd ">
+                    <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z "></path>
+                </svg>
+            </a>
+            </div>
+
+            </div>
+           </div>
+
+        
+           <div class="swiper-slide mb-2 ">
+            <div class="card mx-4 ">
+            <a href="our-solutions-and-services/environment/index.html ">
+            <img class=" " src="./wp-content/uploads/2020/12/environnement_expertise_icon2.png "></a>
+            <div class="card-body ">
+            <p class="card-body_tag ">ENVIRONMENT</p>
+            <a href="our-solutions-and-services/environment/index.html ">
+            <div class="card-body_title ">Because the planet must remain clean</div>      </a> 
+            </div>
+            <div class="card-footer ">
+            <a class="button_more " href="our-solutions-and-services/environment/index.html ">
+                <span class="label ">Discover</span>
+                <svg width="24 " height="24 " xmlns="http://www.w3.org/2000/svg " fill-rule="evenodd " clip-rule="evenodd ">
+                    <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z "></path>
+                </svg>
+            </a>
+            </div>
+
+            </div>
+           </div>
+
+        
+           <div class="swiper-slide mb-2 ">
+            <div class="card mx-4 ">
+            <a href="our-solutions-and-services/mining/index.html ">
+            <img class=" " src="./wp-content/uploads/2020/12/mines_expertise_icon2.png "></a>
+            <div class="card-body ">
+            <p class="card-body_tag ">MINING</p>
+            <a href="our-solutions-and-services/mining/index.html ">
+            <div class="card-body_title ">Providing access to new resources</div>      </a> 
+            </div>
+            <div class="card-footer ">
+            <a class="button_more " href="our-solutions-and-services/mining/index.html ">
+                <span class="label ">Discover</span>
+                <svg width="24 " height="24 " xmlns="http://www.w3.org/2000/svg " fill-rule="evenodd " clip-rule="evenodd ">
+                    <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z "></path>
+                </svg>
+            </a>
+            </div>
+
+            </div>
+           </div>
+
+                </div>
+        <div class="swiper-pagination "></div>
+            <!-- Add Arrows -->
+    <div class="swiper-button-next "></div>
+    <div class="swiper-button-prev "></div>
+           </div>
+
+        </div>
+    </div>
+    
+
+
+
+
+<div class="row p-2 ">
+    <div class="section_desc ">
+        <div class="line "></div>
+             <h2 class="section_desc_title ">NEWS</h2>                 </div>   
+</div>
+
+
+
+
+
+
+	
+
+<div class=" row ">	        
+
+    
+    <div class="col-12 col-sm-6 col-md-4 py-2 ">
+        <div class="card h-100 ">
+          
+            <div class="card_image " style="background-image:url(https://images.unsplash.com/photo-1560288852-b9dcc5efd0a4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1088&q=80); "></div>
+        
+        <div class="card-body " ">
+
+
+                                            <h3 class="card-body_title"><a>Our operations generate waste. We wanted to take action and change things.</a></h3>
+                                            <p class="card-body_date">18 March, 2021</p>
+                                            <p class="card-body_text">S2R, a Construction subsidiary on Reunion Island, is carrying out building decommissioning and refurbishment projects. The manager, Faouzi Ben-Abdallah, has for a long time been looking for better ways to manage
+                                                the waste generated by this type of operation. Over the past three years, the company has made progress in examining various solutions before going forward, with very encouraging results and prospects.
+                                            </p>
+
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+
+                                <div class="col-12 col-sm-6 col-md-4 py-2">
+                                    <div class="card h-100">
+
+                                        <div class="card_image" style="background-image:url(https://images.unsplash.com/photo-1582196832677-83a5c7e34c72?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);"></div>
+
+                                        <div class="card-body" ">	
+            	
+
+                <h3 class="card-body_title "><a>Chernobyl, the ultimate challenge</a></h3>
+                                <p style="margin-top: 33px; " class="card-body_date ">15 March, 2021</p>
+                                <p class="card-body_text ">Ten years ago, construction works began on a gigantic arch-shaped structure to confine Chernobyl power plant’s reactor number 4, which was damaged in an explosion in 1986. Here’s more about a once-in-a-lifetime project that showcases  Construction’s wealth of expertise.</p>	
+                                
+               
+            </div>
+           
+
+        </div>
+    </div>	
+
+    
+    <div class="col-12 col-sm-6 col-md-4 py-2 ">
+        <div class="card h-100 ">
+          
+            <div class="card_image " style="background-image:url(https://images.unsplash.com/photo-1519494080410-f9aa76cb4283?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80); "></div>
+           
+        <div class="card-body " ">
+
+
+                                            <h3 class="card-body_title"><a>Strong mobilization and construction of hospitals in the UK</a></h3>
+                                            <p class="card-body_date">3 March, 2021</p>
+                                            <p class="card-body_text">Teams from Integrated Health Projects (IHP) – a joint venture between Construction UK and Sir Robert McAlpine – successfully converted Manchester Central Convention Complex into a 750-bed temporary hospital
+                                                in under two weeks in spring 2020. </p>
+
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+
+                                <div class="col-12 col-sm-6 col-md-4 py-2">
+                                    <div class="card h-100">
+
+                                        <div class="card_image" style="background-image:url(https://images.unsplash.com/photo-1540947523697-e1b7e3a1649f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80);"></div>
+
+                                        <div class="card-body" ">	
+            	
+
+                <h3 class="card-body_title "><a>The Ouagadougou (Burkina Faso) bus station</a></h3>
+                                <p style="margin-top: 34px; " class="card-body_date ">26 February, 2021</p>
+                                <p class="card-body_text ">We were pleased to have an opportunity to interview Construction Manager Abdramane Kone, who oversaw the work on a project which is crucial for the country&#8217;s economic activity.</p>	
+                                
+               
+            </div>
+           
+
+        </div>
+    </div>	
+
+    
+    <div class="col-12 col-sm-6 col-md-4 py-2 ">
+        <div class="card h-100 ">
+           
+            <div class="card_image " style="background-image:url(https://images.unsplash.com/photo-1521618755572-156ae0cdd74d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=756&q=80); "></div>
+          
+        <div class="card-body " ">
+
+
+                                            <h3 class="card-body_title"><a>30 energy players initiate an integrated value chain to deliver green hydrogen across Europe at the price of fossil fuels</a></h3>
+                                            <p class="card-body_date">11 February, 2021</p>
+                                            <p class="card-body_text">After 2 years of research and confidential preparation, a group of 30 pioneering European energy players officially launches &#8220;HyDeal Ambition&#8221; with the aim of delivering 100% green hydrogen across
+                                                Europe at €1.5/kg before 2030.</p>
+
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+
+                                <div class="col-12 col-sm-6 col-md-4 py-2">
+                                    <div class="card h-100">
+
+                                        <div class="card_image" style="background-image:url(https://images.unsplash.com/photo-1512187849-463fdb898f21?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80);"></div>
+
+                                        <div class="card-body" ">	
+            	
+
+                <h3 class="card-body_title "><a>Flashback to 1998: the Vasco de Gama bridge in Lisbon is inaugurated.</a></h3>
+                                <p style="margin-top: 33px; " class="card-body_date ">10 February, 2021</p>
+                                <p class="card-body_text ">Inaugurated at the Lisbon Universal Exhibition in 1998, the Vasco de Gama Bridge is remarkable for several reasons. Seventeen kilometres long, it spans the Tagus estuary and for many years remained the longest bridge in Europe. </p>	
+                                
+               
+            </div>
+           
+
+        </div>
+    </div>	
+
+    		
+
+
+    </div>
+       
+        
+  
+
+	
+
+
+
+
+
+    
+    
+
+
+		</main><!-- #main -->
+
+			<!-- Do the right sidebar check -->
+			
+</div><!-- #closing the primary container from /global-templates/left-sidebar-check.php -->
+
+
+		</div><!-- .row -->
+
+	</div><!-- #content -->
+
+</div><!-- #single-wrapper -->
+
+
+
+<!-- #wrapper-footer-full -->
+
+
+                <!--col end -->
+          
+<!-- #page we need this extra closing tag here -->
+
+<footer id="footer " class="footer-1 ">
+    <div class="main-footer widgets-dark typo-light ">
+    <div class="container ">
+    <div class="row ">
+    
+        <div class="col-xs-12 col-sm-6 col-md-3 ">
+            <div class="widget no-box ">
+            <h5 class="widget-title ">About Us<span></span></h5>
+            <ul class="thumbnail-widget ">
+            <li>
+            <div class="thumb-content "><a href="index.html#global-challenges ">Global Challenges</a></div> 
+            </li>
+            <li>
+            <div class="thumb-content "><a href="index.html#our-commitments ">Our commitments</a></div> 
+            </li>
+            <li>
+            <div class="thumb-content "><a href="index.html#key-figures ">Key Figures</a></div> 
+            </li>
+            <li>
+            <div class="thumb-content "><a href="index.html#organization ">Organizations</a></div> 
+            </li>
+            <li>
+            <div class="thumb-content "><a href="index.html#management-team ">Management team</a></div>  
+            </li>
+            <li>
+            
+            </ul>
+            </div>
+            </div>
+            
+    
+    <div style="margin-left: 30px; " class="col-xs-12 col-sm-6 col-md-3 ">
+    <div class="widget no-box ">
+    <h5 style="width: 300px; " class="widget-title ">Our Services and solutions<span></span></h5>
+    <ul class="thumbnail-widget ">
+    <li>
+    <div class="thumb-content "><a href="#. ">Buildings</a></div> 
+    </li>
+    <li>
+    <div class="thumb-content "><a href="#. ">Functional Components</a></div> 
+    </li>
+    <li>
+    <div class="thumb-content "><a href="#. ">Transport infrastructure/a></div> 
+    </li>
+    <li>
+    <div class="thumb-content "><a href="#. ">Wter infrastructure</a></div> 
+    </li>
+    <li>
+    <div class="thumb-content "><a href="#. ">Renewable</a></div>  
+    </li>
+    <li>
+    <div class="thumb-content "><a href="#. ">Oil and Gas</a></div> 
+    </li>
+    <li>
+    <div class="thumb-content "><a href="#. ">Environment</a></div> 
+    </li>
+    <li>
+    <div class="thumb-content "><a href="#. ">Mining</a></div> 
+    </li>
+            
+    </ul>
+    </div>
+    </div>
+    
+    <div style="margin-left: 200px; " class="col-xs-12 col-sm-6 col-md-3 ">
+        <div class="widget no-box ">
+        <h5 class="widget-title ">Careers<span></span></h5>
+        <ul class="thumbnail-widget ">
+        <li>
+        <div class="thumb-content "><a href="#. ">Latest jobs</a></div> 
+        </li>
+        </ul>
+        </div>
+        </div>
+          
+    
+    </div>
+    </div>
+    </div>
+      
+    <div class=" footer-copyright ">
+    <div class="container ">
+    <div class="row ">
+    <div class="col-md-12 text-center ">
+    <p>Copyright Company Name © 2016. All rights reserved.</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </footer>
+
+
+
+
+
+<script src='./wp-content/plugins/cookie-notice/js/front.min9e1e.js?ver=1.3.2' id='cookie-notice-front-js'></script>
+<script src='./wp-content/plugins/page-scroll-to-id/js/page-scroll-to-id.min7d4c.js?ver=1.7.0' id='page-scroll-to-id-plugin-script-js'></script>
+<script src='./wp-content/themes/const/js/theme.min4b52.js?ver=0.9.4.1613468959' id='vinci-scripts-js'></script>
+<script src='./wp-includes/js/wp-embed.min5697.js?ver=5.5.3' id='wp-embed-js'></script>
+
+
+
+		<!-- Cookie Notice plugin v1.3.2 by Digital Factory https://dfactory.eu/ -->
+		
+</body>
+
+
+</html>

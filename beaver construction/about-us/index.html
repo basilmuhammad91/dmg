@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>About us</title>
+
+    <link rel='dns-prefetch' href='http://code.jquery.com/' />
+    <link rel='dns-prefetch' href='http://use.fontawesome.com/' />
+
+    <link rel='dns-prefetch' href='http://s.w.org/' />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <style>
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' id='wp-block-library-css' href='../wp-includes/css/dist/block-library/style.min5697.css?ver=5.5.3' media='all' />
+    <link rel='stylesheet' id='contact-form-7-css' href='../wp-content/plugins/contact-form-7/includes/css/styles7923.css?ver=5.3.1' media='all' />
+    <link rel='stylesheet' id='cookie-notice-front-css' href='../wp-content/plugins/cookie-notice/css/front.min5697.css?ver=5.5.3' media='all' />
+    <link rel='stylesheet' id='wpml-legacy-dropdown-0-css' href='../wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-dropdown/style68b3.css?ver=1' media='all' />
+    <style id='wpml-legacy-dropdown-0-inline-css'>
+        .wpml-ls-statics-shortcode_actions,
+        .wpml-ls-statics-shortcode_actions .wpml-ls-sub-menu,
+        .wpml-ls-statics-shortcode_actions a {
+            border-color: #ffffff;
+        }
+    </style>
+    <style>
+        .backbround {
+            width: 100%;
+            height: 300px;
+            grid-area: 1/1/5/5;
+            background-image: url(https://images.unsplash.com/photo-1607134541878-f3bbce97b2dd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+            filter: brightness(50%);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .content {
+            height: 200px;
+            margin-top: -210px;
+            position: relative;
+            grid-area: content;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        
+        .backbround2 {
+            width: 100%;
+            height: 300px;
+            grid-area: 1/1/5/5;
+            background-image: url(https://images.unsplash.com/photo-1614606325658-e5f90587c81c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80);
+            filter: brightness(50%);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .content2 {
+            height: 200px;
+            margin-top: -210px;
+            position: relative;
+            grid-area: content;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        
+        .backbround3 {
+            width: 100%;
+            height: 300px;
+            grid-area: 1/1/5/5;
+            background-image: url(data:image/jpeg;base64,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);
+            filter: brightness(50%);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .content3 {
+            height: 200px;
+            margin-top: -210px;
+            position: relative;
+            grid-area: content;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        
+        .backbround4 {
+            width: 100%;
+            height: 300px;
+            grid-area: 1/1/5/5;
+            background-image: url(../wp-content/uploads/2021/02/activskeen-photo-andreas_horsky_panoramique.jpg);
+            filter: brightness(50%);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .content4 {
+            height: 200px;
+            margin-top: -210px;
+            position: relative;
+            grid-area: content;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        
+        .backbround5 {
+            width: 100%;
+            height: 300px;
+            grid-area: 1/1/5/5;
+            background-image: url(https://www.alpora.com/wp-content/uploads/2021/03/innovation-in-construction-2.jpg);
+            filter: brightness(50%);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .content5 {
+            height: 200px;
+            margin-top: -210px;
+            position: relative;
+            grid-area: content;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+    </style>
+    <link rel='stylesheet' href='../wp-content/themes/const/css/theme.min4b52.css?ver=0.9.4.1613468959' media='all' />
+    <link rel='stylesheet' id='font-awesome-css' href='../use.fontawesome.com/releases/v5.9.0/css/all5697.css?ver=5.5.3' media='all' />
+    <link rel='stylesheet' id='addtoany-css' href='../wp-content/plugins/add-to-any/addtoany.min9be6.css?ver=1.15' media='all' />
+    <script src='../code.jquery.com/jquery-3.1.1.minb12b.js?ver=3.1.1' id='jquery-js'></script>
+    <script src='../wp-content/plugins/add-to-any/addtoany.min4963.js?ver=1.1' id='addtoany-js'></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src='../wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-dropdown/script68b3.js?ver=1' id='wpml-legacy-dropdown-0-js'></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src='../wp-content/themes/const/js/main5697.js?ver=5.5.3' id='main-js-js'></script>
+    <link rel="https://api.w.org/" href="../wp-json/index.html" />
+    <link rel="alternate" type="application/json" href="../wp-json/wp/v2/pages/769.json" />
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+
+</head>
+
+<body class="page-template page-template-page-templates page-template-qui-sommes-nous page-template-page-templatesqui-sommes-nous-php page page-id-769 wp-custom-logo wp-embed-responsive cookies-not-set group-blog" itemscope itemtype="http://schema.org/WebSite">
+    <div class="site" id="page">
+        <div class="fixed-header">
+            <div class="container">
+
+
+                <div class="lang_switcher">
+
+                </div>
+
+            </div>
+
+            <script>
+                jQuery(document).ready(function() {
+
+                    console.log("document loaded");
+
+                    var $search_form = jQuery(".search_form");
+                    var $search_item = jQuery(".trigger--search");
+                    jQuery(".js-trigger--search").on("click", function() {
+                        $search_form.toggleClass("active");
+                        $search_item.toggleClass("active");
+                    });
+
+
+                });
+            </script>
+            <script>
+                $(window).on("load", function() {
+                    $(window).scroll(function() {
+                        var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+                        $(".fade").each(function() {
+                            /* Check the location of each desired element */
+                            var objectBottom = $(this).offset().top + $(this).outerHeight();
+
+                            /* If the element is completely within bounds of the window, fade it in */
+                            if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+                                if ($(this).css("opacity") == 0) {
+                                    $(this).fadeTo(500, 1);
+                                }
+                            } else { //object goes out of view (scrolling up)
+                                if ($(this).css("opacity") == 1) {
+                                    $(this).fadeTo(500, 0);
+                                }
+                            }
+                        });
+                    }).scroll(); //invoke scroll-handler on page-load
+                });
+            </script>
+
+
+            <!-- ******************* The Navbar Area ******************* -->
+            <div id="wrapper-navbar">
+                <div class="container">
+
+                    <a class="skip-link sr-only sr-only-focusable" href="#content">Skip to content</a>
+
+
+                    <nav id="main-nav" class="navbar-light navbar-default navbar navbar-expand-md" aria-labelledby="main-nav-label">
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>	  
+	  
+    </button>
+                        <div>
+                            <a href="../index.html" class="navbar-brand custom-logo-link" rel="home"><img width="434" height="121" src="../wp-content/cover.png" class="img-fluid" /></a>
+                        </div>
+
+
+
+                        <h2 id="main-nav-label" class="sr-only">
+                            Main Navigation </h2>
+
+                        <div class="container">
+
+                            <div id="navbarNavDropdown" class="collapse navbar-collapse">
+                                <ul id="main-menu" class="navbar-nav ml-auto">
+                                    <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-836" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-836 nav-item"><a title="Home" href="../index.html" class="nav-link" data-ps2id-api="true">Home</a></li>
+                                    <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-821" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-769 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children dropdown active menu-item-821 nav-item"><a title="About us" href="index.html" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-821" aria-current="page" data-ps2id-api="true">About us</a>
+                                        <ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-821" role="menu">
+                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-866" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item active menu-item-866 nav-item"><a title="Global Challenges" href="index.html#global-challenges" class="dropdown-item" aria-current="page" data-ps2id-api="true">Global Challenges</a></li>
+                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-867" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item active menu-item-867 nav-item"><a title="Our commitments" href="index.html#our-commitments" class="dropdown-item" aria-current="page" data-ps2id-api="true">Our commitments</a></li>
+                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-868" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item active menu-item-868 nav-item"><a title="Key figures" href="index.html#key-figures" class="dropdown-item" aria-current="page" data-ps2id-api="true">Key figures</a></li>
+                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-869" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item active menu-item-869 nav-item"><a title="Organization" href="index.html#organization" class="dropdown-item" aria-current="page" data-ps2id-api="true">Organization</a></li>
+                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-870" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item active menu-item-870 nav-item"><a title="Executive Committee" href="index.html#executive-committee" class="dropdown-item" aria-current="page" data-ps2id-api="true">Executive Committee</a></li>
+                                        </ul>
+                                    </li>
+                                    <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-825" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-825 nav-item"><a title="Our solutions and services" href="../nos-expertises/index.html" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-825" data-ps2id-api="true">Our solutions and services</a>
+                                        <ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-825" role="menu">
+                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-871" class="menu-item menu-item-type-taxonomy menu-item-object-expertises_tax menu-item-871 nav-item"><a title="Buildings" href="../our-solutions-and-services/buildings/index.html" class="dropdown-item" data-ps2id-api="true">Buildings</a></li>
+                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-872" class="menu-item menu-item-type-taxonomy menu-item-object-expertises_tax menu-item-872 nav-item"><a title="Functional facilities" href="../our-solutions-and-services/functional-facilities/index.html" class="dropdown-item" data-ps2id-api="true">Functional facilities</a></li>
+                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-873" class="menu-item menu-item-type-taxonomy menu-item-object-expertises_tax menu-item-873 nav-item"><a title="Transport infrastructure" href="../our-solutions-and-services/transport-infrastructure/index.html" class="dropdown-item" data-ps2id-api="true">Transport infrastructure</a></li>
+                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-874" class="menu-item menu-item-type-taxonomy menu-item-object-expertises_tax menu-item-874 nav-item"><a title="Water infrastructure" href="../our-solutions-and-services/water-infrastructure/index.html" class="dropdown-item" data-ps2id-api="true">Water infrastructure</a></li>
+                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-875" class="menu-item menu-item-type-taxonomy menu-item-object-expertises_tax menu-item-875 nav-item"><a title="Renewable and nuclear energy" href="../our-solutions-and-services/renewable-and-nuclear-energy/index.html" class="dropdown-item" data-ps2id-api="true">Renewable and nuclear energy</a></li>
+                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-876" class="menu-item menu-item-type-taxonomy menu-item-object-expertises_tax menu-item-876 nav-item"><a title="Oil &amp; Gas" href="../our-solutions-and-services/oil-gas/index.html" class="dropdown-item" data-ps2id-api="true">Oil &amp; Gas</a></li>
+                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-877" class="menu-item menu-item-type-taxonomy menu-item-object-expertises_tax menu-item-877 nav-item"><a title="Environment" href="../our-solutions-and-services/environment/index.html" class="dropdown-item" data-ps2id-api="true">Environment</a></li>
+                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-878" class="menu-item menu-item-type-taxonomy menu-item-object-expertises_tax menu-item-878 nav-item"><a title="Mining" href="../our-solutions-and-services/mining/index.html" class="dropdown-item" data-ps2id-api="true">Mining</a></li>
+                                        </ul>
+                                    </li>
+                                    <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-824" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-824 nav-item"><a title="News" href="../news/index.html" class="nav-link" data-ps2id-api="true">News</a></li>
+                                    <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-822" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-822 nav-item"><a title="Careers" href="../career/index.html" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-822" data-ps2id-api="true">Careers</a>
+                                        <ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-822" role="menu">
+                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-879" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-879 nav-item"><a title="5 reasons why you will enjoy working with us" href="../career/index.html#5-reasons-why-you-will-enjoy-working-with-us" class="dropdown-item" data-ps2id-api="true">5 reasons why you will enjoy working with us</a></li>
+                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-880" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-880 nav-item"><a title="They work with us" href="../career/index.html#they-work-with-us" class="dropdown-item" data-ps2id-api="true">They work with us</a></li>
+                                            <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-881" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-881 nav-item"><a title="Latest jobs" href="../career/index.html#latest-jobs" class="dropdown-item" data-ps2id-api="true">Latest jobs</a></li>
+                                        </ul>
+                                    </li>
+                                    <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-882" class="trigger trigger--search js-trigger--search menu-item menu-item-type-custom menu-item-object-custom menu-item-882 nav-item"><a href="#" class="nav-link" data-ps2id-api="true"><i class="fas fa-search"></i></a></li>
+                                    <div class="mobile-search d-block d-md-none">
+                                        <form method="get" id="searchform" action="https://www.vinci-construction.com/en/" role="search">
+                                            <label class="sr-only" for="s">Search</label>
+                                            <div class="input-group">
+                                                <input class="field form-control" id="s" name="s" type="text" placeholder="Search &hellip;" value="">
+                                                <span class="input-group-append">
+			<input class="submit btn btn-primary" id="searchsubmit" name="submit" type="submit"
+			value="Search">
+		</span>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- .container -->
+
+                    </nav>
+                    <!-- .site-navigation -->
+
+                    <div class="d-none d-md-block search_form">
+                        <form method="get" class="form--search--small">
+                            <input type="text" placeholder="SEARCH" name="s" id="search" value="" />
+                        </form>
+                    </div>
+                    <!-- search_form -->
+
+
+                    <div>
+                        <a href="./index.html" class="navbar-brand custom-logo-link" rel="home" aria-current="page"><img style="height: 100px;" src="" sizes="(max-width: 434px) 100vw, 434px" /></a>
+                    </div>
+                </div>
+                <!-- #wrapper-navbar end -->
+            </div>
+        </div>
+        <!-- fixed-header end -->
+        <div class="wrapper" id="single-wrapper">
+
+            <div class="header-hero aggregation-hero" style="background-image:url(https://images.unsplash.com/photo-1603624557016-bbe5e5b954b9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80);height: 500px;">
+                <div class="container">
+                    <h1 class="title">Leading The Construction Industry Globally</h1>
+                    <p class="subtitle">We are the most trusted name in the construction industry, with a network of 3500+ companies working in 75 different countries.</p>
+                </div>
+            </div>
+
+            <div class="container" id="content" tabindex="-1">
+
+                <div class="row mt-md-5 mt-2">
+
+                    <!-- Do the left sidebar check -->
+
+                    <div class="col-md content-area" id="primary">
+
+                        <main class="site-main" id="main">
+
+
+                            <div class="wp-block-ps2id-block-target" id="global-challenges"></div>
+
+                            <div class="row p-2">
+                                <div class="section_desc">
+                                    <div class="line"></div>
+                                    <h2 class="section_desc_title">OUR STORY</h2>
+                                    <p class="section_desc_subtitle">
+                                        Our buildings, civil works and infrastructure enhance life for local people. Diversity, Innovation, Sustainability, and safety are the key factors of XYZ. The flexibility to mobilize the right people to deliver unique construction solutions; an unwavering
+                                        focus on delivering value to your business bottom line; and the capability to leverage innovation to meet emerging challenges and keep you at the fore.Acting as a positive force for all, we build structures to accompany
+                                        the transitions of our era – envi-ronmental, energy and digital. Steeped in a culture of builders, our teams strive and innovate every day to assist our customers as well as the end-users.
+                                    </p>
+
+                                </div>
+                            </div>
+
+                            <div class="row p-4">
+                                <div class="section_desc">
+                                    <div class="line"></div>
+                                    <h2 class="section_desc_title">OUR EXPERTISE</h2>
+                                    <p class="section_desc_subtitle">
+                                        Our structure is organized around our complementary areas of expertise:
+                                        <li style="margin-left: 20px;">Specialty Networks in soil, structures, nuclear engineering and digital technology for construction</li>
+                                        <li>Major Projects encompassing the most significant and complex worksite operations worldwide</li>
+                                        <li style="margin-left: 110px;">Proximity networks in France and the UK as well as other countries in Europe, Afri-ca, the Americas and Oceania
+                                        </li>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="row p-2">
+                                <div class="section_desc">
+                                    <div class="line"></div>
+                                    <h2 class="section_desc_title">GLOBAL CHALLENGES</h2>
+                                    <p class="section_desc_subtitle">The Construction offer is designed to meet global challenges.</p>
+                                </div>
+                            </div>
+
+
+
+                            <div class="row pr-3 pl-3 pb-0 pb-md-4">
+                                <div class="section_desc">
+
+
+                                    <div class="d-none d-md-block about-us-card">
+                                        <div class="row">
+                                            <div class="col-6 col-md-3">
+                                                <img src="../wp-content/uploads/2020/11/icon_demography.png">
+                                                <div class="about-us-card-title">DEMOGRAPHICS</div>
+                                                <div class="about-us-card-desc">The Earth&#8217;s population will be around 10 billion by 2050.
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-md-3">
+                                                <img src="../wp-content/uploads/2020/11/icon_climat.png">
+                                                <div class="about-us-card-title">CLIMATE</div>
+                                                <div class="about-us-card-desc">750 million people around the world still have no access to clean drinking water.
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-md-3">
+                                                <img src="../wp-content/uploads/2020/11/icon_environnement.png">
+                                                <div class="about-us-card-title">ENVIRONMENT</div>
+                                                <div class="about-us-card-desc">Every year, at least 8 million tonnes of plastic find their way into our oceans.
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-md-3">
+                                                <img src="../wp-content/uploads/2020/11/icon_energie.png">
+                                                <div class="about-us-card-title">ENERGY</div>
+                                                <div class="about-us-card-desc">Fossil fuels still account for 80% of the global energy mix.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="d-md-none d-block about-us-card">
+                                        <div class="row">
+
+                                            <div class="swiper-container ss-swiper">
+                                                <div class="swiper-wrapper mb-5">
+                                                    <div class="swiper-slide px-4">
+                                                        <img src="../wp-content/uploads/2020/11/icon_demography.png">
+                                                        <div class="about-us-card-title">DEMOGRAPHICS</div>
+                                                        <div class="about-us-card-desc">The Earth&#8217;s population will be around 10 billion by 2050.
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide px-4">
+                                                        <img src="../wp-content/uploads/2020/11/icon_climat.png">
+                                                        <div class="about-us-card-title">CLIMATE</div>
+                                                        <div class="about-us-card-desc">750 million people around the world still have no access to clean drinking water.
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide px-4">
+                                                        <img src="../wp-content/uploads/2020/11/icon_environnement.png">
+                                                        <div class="about-us-card-title">ENVIRONMENT</div>
+                                                        <div class="about-us-card-desc">Every year, at least 8 million tonnes of plastic find their way into our oceans.
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide px-4">
+                                                        <img src="../wp-content/uploads/2020/11/icon_energie.png">
+                                                        <div class="about-us-card-title">ENERGY</div>
+                                                        <div class="about-us-card-desc">Fossil fuels still account for 80% of the global energy mix.
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="swiper-pagination"></div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+
+
+
+                                </div>
+                            </div>
+
+
+
+                            <div class="wp-block-ps2id-block-target" id="our-commitments"></div>
+
+
+
+
+
+                            <div class="row p-3">
+                                <div class="section_desc">
+                                    <div class="line"></div>
+                                    <h2 class="section_desc_title">Our commitments</h2>
+                                    <p class="section_desc_subtitle"></p>
+                                </div>
+                            </div>
+
+
+
+                            <div class="row nos-engagements">
+
+
+                                <div class="col-12 col-sm-6 col-md-4 py-2">
+                                    <div class="card h-20">
+
+                                        <div class="backbround"></div>
+                                        <div class="content">
+                                            <p style="text-align: center;">Attracting talent to better prepare the future</p>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+
+                                <div class="col-12 col-sm-6 col-md-4 py-2">
+                                    <div class="card h-100">
+
+                                        <div class="backbround2"></div>
+                                        <div class="content2">
+                                            <p style="text-align: center;">Attracting talent to better prepare the future</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="col-12 col-sm-6 col-md-4 py-2">
+                                    <div class="card h-100">
+
+                                        <div class="backbround3"></div>
+                                        <div class="content3">
+                                            <p style="text-align: center;margin-top: 0px;">Reinforcing the safety culture</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="col-12 col-sm-6 col-md-4 py-2">
+                                    <div class="card h-100">
+
+                                        <div class="backbround4"></div>
+                                        <div class="content4">
+                                            <p style="text-align: center;margin-top: -25px;">Minimising our environmental footprint</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="col-12 col-sm-6 col-md-4 py-2">
+                                    <div class="card h-100">
+
+                                        <div class="backbround5"></div>
+                                        <div class="content5">
+                                            <p style="text-align: center;">Innovating to meet the challenges of the future</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <div class="wp-block-ps2id-block-target" id="key-figures"></div>
+
+
+
+                            <div class="row p-3">
+                                <div class="section_desc">
+                                    <div class="line"></div>
+                                    <h2 class="section_desc_title">KEY FIGURES</h2>
+                                    <!-- <p class="section_desc_subtitle"></p> -->
+
+                                    <div class="key-figures-card">
+                                        <div class="d-md-flex d-none row mt-3 mb-4">
+                                            <div class="col-6 col-sm-3 px-2 px-lg-1">
+                                                <img src="../wp-content/uploads/2020/12/vc_rs_v02_chiffre_chiffre_02_resize_revenue_en2_key_figure_card.png">
+                                            </div>
+                                            <div class="col-6 col-sm-3 px-2 px-lg-1">
+                                                <img src="../wp-content/uploads/2020/12/vc_rs_v02_chiffre_chiffre_02_resize_employees_en2_key_figure_card.png">
+                                            </div>
+                                            <div class="col-6 col-sm-3 px-2 px-lg-1">
+                                                <img src="../wp-content/uploads/2020/12/vc_rs_v02_chiffre_chiffre_02_resize_projects_en2_key_figure_card.png">
+                                            </div>
+                                            <div class="col-6 col-sm-3 px-2 px-lg-1">
+                                                <img src="../wp-content/uploads/2020/12/vc_rs_v02_chiffre_chiffre_02_resize_ca_hors_france_en2_key_figure_card.png">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="key-figures-card">
+                                        <div class="d-md-none d-flex row">
+                                            <div class="swiper-container ss-swiper">
+                                                <div class="swiper-wrapper">
+                                                    <div class="swiper-slide my-5">
+                                                        <img src="../wp-content/uploads/2020/12/vc_rs_v02_chiffre_chiffre_02_resize_revenue_en2_key_figure_card.png">
+                                                    </div>
+                                                    <div class="swiper-slide my-5">
+                                                        <img src="../wp-content/uploads/2020/12/vc_rs_v02_chiffre_chiffre_02_resize_employees_en2_key_figure_card.png">
+                                                    </div>
+                                                    <div class="swiper-slide my-5">
+                                                        <img src="../wp-content/uploads/2020/12/vc_rs_v02_chiffre_chiffre_02_resize_projects_en2_key_figure_card.png">
+                                                    </div>
+                                                    <div class="swiper-slide my-5">
+                                                        <img src="../wp-content/uploads/2020/12/vc_rs_v02_chiffre_chiffre_02_resize_ca_hors_france_en2_key_figure_card.png">
+                                                    </div>
+                                                </div>
+
+                                                <div class="swiper-pagination"></div>
+                                                <div class="swiper-button-next"></div>
+                                                <div class="swiper-button-prev"></div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+
+
+                            <div class="wp-block-ps2id-block-target" id="organization"></div>
+
+
+
+
+
+                            <div class="row p-3">
+                                <div class="section_desc">
+                                    <div class="line"></div>
+                                    <h2 class="section_desc_title">Organization</h2>
+                                    <p class="section_desc_subtitle"> Construction’s business model is based on three complementary pillars to provide long-term support for customers on projects spanning a wide spectrum of technical features, scales and geographies.</p>
+                                </div>
+                            </div>
+
+
+
+                            <div class="row">
+
+
+                                <div class="col-12 col-sm-6 col-md-4 py-2">
+                                    <div class="card h-100">
+
+                                        <div class="card_image" style="background-image:url(../wp-content/uploads/2020/11/reseau-de-filiales-locales2_hero_image.jpg);"></div>
+
+                                        <div class="card-body">
+
+                                            <h3 class="card-body_title">Our network of local subsidiaries</h3>
+                                            <p class="card-body_text">Operating close to our customers</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="col-12 col-sm-6 col-md-4 py-2">
+                                    <div class="card h-100">
+
+                                        <div class="card_image" style="background-image:url(../wp-content/uploads/2021/02/division-dediee-aux-grands-projets2-scaled.jpg);"></div>
+                                        <div class="card-body">
+
+                                            <h3 class="card-body_title">A division dedicated to major projects</h3>
+                                            <p class="card-body_text">Managing major projects around the world</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="col-12 col-sm-6 col-md-4 py-2">
+                                    <div class="card h-100">
+
+                                        <div class="card_image" style="background-image:url(../wp-content/uploads/2021/02/filiales-specialisees2-e1612785874212.jpg);"></div>
+
+                                        <div class="card-body">
+
+                                            <h3 class="card-body_title">Specialist subsidiaries</h3>
+                                            <p class="card-body_text">Delivering technology and a high level of expertise</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
+
+                            <div class="row p-3">
+                                <div class="section_desc">
+                                    <div class="line"></div>
+                                    <h2 class="section_desc_title">OUR PROCESS</h2>
+                                </div>
+                            </div>
+
+
+
+                            <div class="row">
+
+
+                                <div class="col-12 col-sm-6 col-md-4 py-2">
+                                    <div class="card h-100">
+
+                                        <div class="card_image" style="background-image:url(https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yMjAyMDk4MS9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTY0MTQ1NTYyMX0.UEcqDv-ZXDnxaRvOkHJ1yJ32MHYUAXF0idAljD23_2c/img.jpg?width=980);"></div>
+
+                                        <div class="card-body">
+
+                                            <h1 style="font-size: 20px;text-align: center;" class="card-body_title">PASSION</h1>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="col-12 col-sm-6 col-md-4 py-2">
+                                    <div class="card h-100">
+
+                                        <div class="card_image" style="background-image:url(data:image/jpeg;base64,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);"></div>
+                                        <div class="card-body">
+
+                                            <h1 style="font-size: 20px;text-align: center;" class="card-body_title">DEDICATION</h1>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="col-12 col-sm-6 col-md-4 py-2">
+                                    <div class="card h-100">
+
+                                        <div class="card_image" style="background-image:url(https://www.alpora.com/wp-content/uploads/2021/03/innovation-in-construction-2.jpg);"></div>
+
+                                        <div class="card-body">
+
+                                            <h1 style="font-size: 20px;text-align: center;" class="card-body_title">INNOVATION</h1>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <div class="wp-block-ps2id-block-target" id="executive-committee"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        </main>
+                        <!-- #main -->
+
+                        <!-- Do the right sidebar check -->
+
+                    </div>
+                    <!-- #closing the primary container from /global-templates/left-sidebar-check.php -->
+
+
+                </div>
+                <!-- .row -->
+
+            </div>
+            <!-- #content -->
+
+        </div>
+        <!-- #single-wrapper -->
+
+
+
+
+        <!-- ******************* The Footer Full-width Widget Area ******************* -->
+
+        <div class="wrapper" id="wrapper-footer-full">
+
+            <div class="container" id="footer-full-content" tabindex="-1">
+
+                <div class="row">
+
+                    <div id="custom_html-4" class="widget_text footer-widget widget_custom_html widget-count-5 col-md-4">
+                        <div class="textwidget custom-html-widget">
+
+                        </div>
+                    </div>
+                    <!-- .footer-widget -->
+                    <div style="margin-left: -260px;" id="nav_menu-15" class="footer-widget widget_nav_menu widget-count-5 col-md-4">
+                        <div class="menu-footer-menu-1-english-container">
+                            <ul id="menu-footer-menu-1-english" class="menu">
+                                <li id="menu-item-838" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-769 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-838"><a href="index.html" aria-current="page" data-ps2id-api="true">About us</a>
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-884" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-884"><a href="index.html#global-challenges" aria-current="page" data-ps2id-api="true">Global Challenges</a></li>
+                                        <li id="menu-item-885" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-885"><a href="index.html#our-commitments" aria-current="page" data-ps2id-api="true">Our commitments</a></li>
+                                        <li id="menu-item-886" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-886"><a href="index.html#key-figures" aria-current="page" data-ps2id-api="true">Key figures</a></li>
+                                        <li id="menu-item-887" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-887"><a href="index.html#organization" aria-current="page" data-ps2id-api="true">Organization</a></li>
+                                        <li id="menu-item-888" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-888"><a href="index.html#management-team" aria-current="page" data-ps2id-api="true">Management team</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- .footer-widget -->
+                    <div style="margin-left: -30px;" id="nav_menu-14" class="footer-widget widget_nav_menu widget-count-5 col-md-4">
+                        <div class="menu-footer-menu-2-english-container">
+                            <ul id="menu-footer-menu-2-english" class="menu">
+                                <li id="menu-item-842" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-842"><a href="../nos-expertises/index.html" data-ps2id-api="true">Our solutions and services</a>
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-903" class="menu-item menu-item-type-taxonomy menu-item-object-expertises_tax menu-item-903"><a href="../our-solutions-and-services/buildings/index.html" data-ps2id-api="true">Buildings</a></li>
+                                        <li id="menu-item-904" class="menu-item menu-item-type-taxonomy menu-item-object-expertises_tax menu-item-904"><a href="../our-solutions-and-services/functional-facilities/index.html" data-ps2id-api="true">Functional facilities</a></li>
+                                        <li id="menu-item-905" class="menu-item menu-item-type-taxonomy menu-item-object-expertises_tax menu-item-905"><a href="../our-solutions-and-services/transport-infrastructure/index.html" data-ps2id-api="true">Transport infrastructure</a></li>
+                                        <li id="menu-item-906" class="menu-item menu-item-type-taxonomy menu-item-object-expertises_tax menu-item-906"><a href="../our-solutions-and-services/water-infrastructure/index.html" data-ps2id-api="true">Water infrastructure</a></li>
+                                        <li id="menu-item-907" class="menu-item menu-item-type-taxonomy menu-item-object-expertises_tax menu-item-907"><a href="../our-solutions-and-services/renewable-and-nuclear-energy/index.html" data-ps2id-api="true">Renewable and nuclear energy</a></li>
+                                        <li id="menu-item-908" class="menu-item menu-item-type-taxonomy menu-item-object-expertises_tax menu-item-908"><a href="../our-solutions-and-services/oil-gas/index.html" data-ps2id-api="true">Oil &amp; Gas</a></li>
+                                        <li id="menu-item-909" class="menu-item menu-item-type-taxonomy menu-item-object-expertises_tax menu-item-909"><a href="../our-solutions-and-services/environment/index.html" data-ps2id-api="true">Environment</a></li>
+                                        <li id="menu-item-910" class="menu-item menu-item-type-taxonomy menu-item-object-expertises_tax menu-item-910"><a href="../our-solutions-and-services/mining/index.html" data-ps2id-api="true">Mining</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- .footer-widget -->
+                    <div id="nav_menu-12" class="footer-widget widget_nav_menu widget-count-5 col-md-4">
+                        <div class="menu-footer-menu-4-english-container">
+                            <ul id="menu-footer-menu-4-english" class="menu">
+                                <li id="menu-item-839" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-839"><a href="../career/index.html" data-ps2id-api="true">Careers</a>
+                                    <ul class="sub-menu">
+                                        <li id="menu-item-916" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-916"><a href="../career/index.html#5-reasons-why-you-will-enjoy-working-with-us" data-ps2id-api="true">5 reasons why you will enjoy working with us</a></li>
+                                        <li id="menu-item-917" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-917"><a href="../career/index.html#they-work-with-us" data-ps2id-api="true">They work with us</a></li>
+                                        <li id="menu-item-918" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-918"><a href="../career/index.html#latest-jobs" data-ps2id-api="true">Latest jobs</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- .footer-widget -->
+                </div>
+
+            </div>
+
+        </div>
+        <!-- #wrapper-footer-full -->
+
+
+        <div class="wrapper" id="wrapper-footer">
+
+            <footer class="site-footer">
+                <div class="container">
+
+                    <div class="row">
+
+                        <div class="col-12 col-md-6">
+                            <div class="site-info">
+                                <p>Copyright © 2021. All Rights Reserved.</p>
+                            </div>
+                            <!-- .site-info -->
+                        </div>
+                        <!--col end -->
+
+
+                        <div class="col-12 col-md-6">
+
+
+
+                            <ul class="footer__info__links">
+
+
+                                <li> <a href="../contact/index.html"> Contact Us</a></li>
+
+
+                                <li> <a href="../terms-of-service/index.html">Terms of service</a></li>
+
+
+                            </ul>
+
+
+                        </div>
+                        <!--col end -->
+                    </div>
+                    <!-- row end -->
+                </div>
+                <!-- container end -->
+
+            </footer>
+            <!-- #colophon -->
+
+        </div>
+        <!-- wrapper end -->
+
+    </div>
+    <!-- #page we need this extra closing tag here -->
+
+    <script src='../wp-content/plugins/cookie-notice/js/front.min9e1e.js?ver=1.3.2' id='cookie-notice-front-js'></script>
+    <script src='../wp-content/plugins/page-scroll-to-id/js/page-scroll-to-id.min7d4c.js?ver=1.7.0' id='page-scroll-to-id-plugin-script-js'></script>
+    <script src='../wp-content/themes/const/js/theme.min4b52.js?ver=0.9.4.1613468959' id='vinci-scripts-js'></script>
+    <script src='../wp-includes/js/wp-embed.min5697.js?ver=5.5.3' id='wp-embed-js'></script>
+
+
+</body>
+
+
+
+</html>
